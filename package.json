@@ -1,6 +1,9 @@
 {
   "name": "navbar-pwa",
-  "version": "0.1.0",
+  "description": "Simple navigation menu",
+  "version": "1.0.0",
+  "author": "Michał Janicki",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

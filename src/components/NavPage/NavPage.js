@@ -2,6 +2,8 @@ import React from "react";
 
 import { LandingPage } from "../LandingPage/LandingPage";
 
+import "./NavPage.css";
+
 export const NavPage = ({ toggleNavbar, isNavbarOpen }) => {
   return (
     <div className="nav-page">
@@ -19,7 +21,6 @@ export const NavPage = ({ toggleNavbar, isNavbarOpen }) => {
           </div>
         </div>
       </div>
-
       <div className="nav-page__app-container">
         <LandingPage isNavbarOpen={isNavbarOpen} toggleNavbar={toggleNavbar} />
       </div>

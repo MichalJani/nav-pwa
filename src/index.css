@@ -1,6 +1,13 @@
-root {
-  --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51, 0.85);
+:root {
+  --primary-background-color: #ffffff;
+  --navigation-background-color: rgba(24, 39, 51, 0.85);
+  --hover-background-color: rgba(252, 128, 116, 0.2);
+  --hover-text-color: #fc8074;
+  --navbar-icon-color: #e8e5e5;
+  --navbar-title-color: #9f9fa0;
+  --navigation-text-color: #ffffff;
+  --border-color: #84818e;
+  --navigation-background-color: #1f1b33;
 }
 
 html {

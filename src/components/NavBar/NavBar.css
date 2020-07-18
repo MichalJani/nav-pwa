@@ -1,0 +1,33 @@
+.nav-bar {
+  height: 100px;
+  width: 100%;
+}
+
+.nav-bar__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 160px;
+  height: 33px;
+  padding: 43px 36px;
+}
+
+.nav-bar__button > div {
+  height: 4px;
+  width: 30px;
+  border-radius: 3.5px;
+  margin-bottom: 7px;
+  background-color: var(--navbar-icon-color);
+}
+
+.nav-bar__title {
+  height: 33px;
+  width: 95px;
+  color: var(--navbar-title-color);
+  font-family: "Avenir Medium";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  line-height: 33px;
+  text-transform: uppercase;
+}

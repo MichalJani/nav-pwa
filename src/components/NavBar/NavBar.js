@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./NavBar.css";
+
 export const NavBar = ({ isNavbarOpen, toggleNavbar }) => {
   return (
     <div className="nav-bar">

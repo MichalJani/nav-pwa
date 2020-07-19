@@ -20,7 +20,7 @@
   margin-left: 31px;
   height: 38px;
   width: 83px;
-  font-family: "Avenir Black";
+  font-family: 'Avenir Black';
   font-size: 28px;
   font-weight: 900;
   letter-spacing: 0;
@@ -54,10 +54,10 @@
   margin-bottom: 19px;
 }
 
-.nav-page__menu-list-top > div:hover,
-.nav-page__menu-list-bottom > div:hover {
-  background: var(--hover-background-color);
-  color: var(--hover-text-color);
+.nav-page__menu-list-top > div:active,
+.nav-page__menu-list-bottom > div:active {
+  background: var(--active-background-color);
+  color: var(--active-text-color);
   letter-spacing: -0.5px;
 }
 

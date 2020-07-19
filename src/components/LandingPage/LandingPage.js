@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import { NavBar } from "../NavBar/NavBar";
+import { NavBar } from '../NavBar/NavBar';
 
-import "./LandingPage.css";
+import './LandingPage.css';
 
 export const LandingPage = ({ isNavbarOpen, toggleNavbar }) => {
   return (
